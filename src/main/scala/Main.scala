@@ -5,7 +5,7 @@ import org.apache.spark.SparkConf
 object Main {
     def main(args: Array[String]) {
 
-        val conf = new SparkConf().setAppName("MyProject")
+        val conf = new SparkConf().setAppName("TemplateProject")
         val sc = new SparkContext(conf)
 
         println("Hello, world!")
